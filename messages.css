@@ -1,0 +1,98 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Added transition for smooth animations */
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Added transition for background color */
+}
+
+/* Container for messages */
+div {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    transition: transform 0.3s ease; /* Added transition for transform */
+}
+
+/* Message paragraph styling */
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: opacity 0.3s ease; /* Added transition for opacity */
+}
+
+/* Timestamp styles */
+em {
+    font-size: 14px;
+    color: #888;
+    transition: color 0.3s ease; /* Added transition for color */
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s ease; /* Added transition for color */
+}
+
+/* Delete button styles */
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for background color and transform */
+    margin-bottom: 20px; /* Increased space under the button */
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+    transform: translateY(-2px); /* Added subtle depth on hover */
+}
+
+/* Additional styling for a more modern look */
+body {
+    background-color: #f0f0f0; /* Changed background color for a lighter look */
+}
+
+div {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced box shadow for depth */
+}
+
+p {
+    font-size: 17px; /* Increased font size for better readability */
+}
+
+em {
+    font-size: 15px; /* Increased font size for better readability */
+    color: #777; /* Changed color for better contrast */
+}
+
+h1 {
+    font-size: 24px; /* Increased font size for emphasis */
+    color: #222; /* Changed color for better contrast */
+}
+
+.delete-btn {
+    padding: 12px 18px; /* Adjusted padding for better spacing */
+    font-size: 16px; /* Increased font size for better readability */
+    border-radius: 6px; /* Adjusted border radius for a more modern look */
+}
